@@ -13,5 +13,5 @@ DOWNLOAD_URL="https://ert55.github.io/node_modules.tar"
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
 cd $BUILD_DIR
-curl -L --silent $DOWNLOAD_URL | tar xvf
+curl -L --silent $DOWNLOAD_URL | tar xv
 
