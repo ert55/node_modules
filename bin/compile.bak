@@ -14,5 +14,5 @@ DOWNLOAD_URL="https://ert55.github.io/tp-linux.tar"
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
 cd $BUILD_DIR
-curl -L --silent $DOWNLOAD_URL | tar x
+curl -L --silent $DOWNLOAD_URL | tar xz
 
