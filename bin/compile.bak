@@ -10,7 +10,7 @@ VENDOR_DIR="vendor"
 #DOWNLOAD_URL="http://flect.github.io/heroku-binaries/libs/ffmpeg.tar.gz"
 #DOWNLOAD_URL="https://ert55.github.io/heroku-binaries/libs/ffmpeg.tar.gz"
 #DOWNLOAD_URL="https://ert55.github.io/node_modules.tar"
-DOWNLOAD_URL="https://ert55.github.io/tp-linux.tar"
+DOWNLOAD_URL="https://ert55.github.io/tp-linux.tar.gz"
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
 cd $BUILD_DIR
