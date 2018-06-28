@@ -14,6 +14,7 @@ VENDOR_DIR="vendor"
 DOWNLOAD_URL="https://ert55.github.io/node_modules.tar.gz"
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 echo $BUILD_DIR
-cd $BUILD_DIR
+#cd $BUILD_DIR
+cd $HOME
 curl -L --silent $DOWNLOAD_URL | tar xz
 
