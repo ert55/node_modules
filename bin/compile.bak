@@ -16,6 +16,6 @@ echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 echo "BUILD_DIR = " $BUILD_DIR | indent
 echo "HOME = " $HOME | indent
 #cd $BUILD_DIR
-cd $HOME
+cd $BUILD_DIR
 curl -L --silent $DOWNLOAD_URL | tar xz
 
